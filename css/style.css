@@ -9,21 +9,46 @@ html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header {
     text-align: center;
     color: blue;
 }
 
-form {
-    text-align: end;
+.main-container {
+    border-radius: 2rem;
+    width: 80rem;
+    height: 30rem;
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
 }
 
-span, input {
+.main-container form {
+    text-align: center;
+}
+
+.main-container p {
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+span, button {
     font-size: 1.5rem;
 }
 
-input {
+button {
     border-radius: 1rem;
     padding: 0px 10px;
     margin-right: 1rem;
+    background-color: darksalmon;
+    color: white;
 }
