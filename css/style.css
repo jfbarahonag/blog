@@ -22,7 +22,11 @@ html {
     color: white;
     width: 80rem;
     height: 7rem;
+<<<<<<< HEAD
     background-color: rgb(6, 180, 0);
+=======
+    background-color: rgba(180, 117, 0);
+>>>>>>> header
     border-radius: 1rem;
 }
 
