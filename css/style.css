@@ -16,8 +16,33 @@ html {
 }
 
 .main-header {
-    text-align: center;
-    color: blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    width: 80rem;
+    height: 7rem;
+    background-color: rgb(0, 0, 180);
+    border-radius: 1rem;
+}
+
+.main-header h1 {
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.main-header h1::after {
+    content: " | ";
+}
+
+.main-header span {
+    margin-left: 0.0rem;
+    font-size: 1.8rem;
+}
+
+.main-header:hover {
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 4px 13px 4px rgba(27, 27, 27, 0.6);
 }
 
 .main-container {
