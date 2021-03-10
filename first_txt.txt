@@ -1,1 +1,6 @@
 This is the line for the first commit
+------ Lines for the second commit ------
+line 2.1
+line 2.2
+line 2.3
+-----------------------------------------
