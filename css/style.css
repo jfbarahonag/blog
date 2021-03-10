@@ -22,7 +22,7 @@ html {
     color: white;
     width: 80rem;
     height: 7rem;
-    background-color: rgb(0, 0, 180);
+    background-color: rgba(180, 117, 0);
     border-radius: 1rem;
 }
 
@@ -63,7 +63,7 @@ html {
 
 .main-container p {
     font-size: 1.8rem;
-    text-align: justify;
+    text-align: center;
 }
 
 span, button {
