@@ -58,7 +58,12 @@ html {
 }
 
 .main-container:hover {
-    color: rgb(175, 149, 0);
+    color: rgb(228, 226, 226);
+}
+
+.main-container:hover {
+    background-color: black;
+    border: 0.5rem solid rgba(180, 117, 0);
 }
 
 .main-container form {
