@@ -86,3 +86,48 @@ button {
     background-color: darksalmon;
     color: white;
 }
+
+.main-footer {
+    width: 80rem;
+    height: 7rem; 
+    background-color: rgba(33, 75, 78, 0.8);
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-footer__social {
+    background-color: rgba(33, 75, 78, 0.8);
+    padding: 0.5rem;
+    border-radius: 0.9rem;
+}
+
+.main-footer__social:hover {
+    width: 15rem;
+}
+
+.main-footer__social:hover ul li a {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.main-footer__social ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-footer__social ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__social ul li a::before {
+    content: " | ";
+}
+
+.main-footer__copyright {
+    font-size: 1.2rem;
+}
