@@ -57,6 +57,10 @@ html {
     padding: 1rem;
 }
 
+.main-container:hover {
+    color: rgb(175, 149, 0);
+}
+
 .main-container form {
     text-align: center;
 }
